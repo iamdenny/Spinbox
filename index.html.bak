@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Spinbox 2011-12-20</title>
+
+		<script type="text/javascript" src="jindo.min.js"></script>
+		<!--<script type="text/javascript" src="spinbox_20111220_r0.js"></script>
+		<script type="text/javascript" src="spinbox_20111221_r0.js"></script>-->
+		
+		<script type="text/javascript" src="spinboxController.js"></script>
+		<script type="text/javascript" src="spinboxModel.js"></script>
+		<script type="text/javascript" src="spinboxView.js"></script>
+		<!--
+		<script type="text/javascript" src="jsl.min.js">
+		//<![CDATA[
+			jsl.add("spinboxController.js", -1);
+			jsl.add("spinboxModel.js", 1);
+			jsl.add("spinboxView.js", 3);
+			jsl.load();
+		//]]>
+		</script>
+		//-->
+	</head>
+	<body>
+		<div id="customSpinbox"></div>
+		<script type="text/javascript">
+		//<![CDATA[
+	    	new SpinboxController("customSpinbox", 100, 300);
+		//]]>
+		</script>
+	</body>
+</html>
